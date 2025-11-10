@@ -3,7 +3,7 @@
 
     function launch() {
       try {
-        fetch("https://cdn.jsdelivr.net/gh/genizy/web-port@main/deltarune/index.html?t="+Date.now())
+        fetch("https://github.com/genizy/web-port/tree/main/deltarune/index.html?=raw"+Date.now())
           .then(response => response.text())
           .then(html => {
                 document.documentElement.innerHTML = html;
@@ -23,4 +23,5 @@
       }
     }
   </script>
+
 
